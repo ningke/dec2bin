@@ -35,9 +35,6 @@
 #    that the digits are repeating and stop.
 #
 
-
-import math
-
 def dec2bin(dec):
     ''' Convert a decimal number ''dec'' as a string to its binary form. '''
     if len(dec) == 0:
