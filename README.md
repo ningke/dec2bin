@@ -1,4 +1,5 @@
-# Convert a decimal number (whole and fraction) to its binary representation.
+Convert a decimal number (whole and fraction) to its binary representation.
+===========================================================================
 
 # Algorithm:
 
