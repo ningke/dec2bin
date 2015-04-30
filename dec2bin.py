@@ -21,7 +21,7 @@
 #    shifting on place and record the parity of bit 0.
 #    So:
 #      exponent              number        result    remainder   output
-#             0               3 / 2    =        1           1         1 
+#             0               3 / 2    =        1           1         1
 #             1               1 / 2    =        0           1        11
 #
 # 2) Convert right of decimal point (fraction part):
@@ -104,7 +104,7 @@ def tests():
         print "%s ==> %s" % (i, dec2bin(i))
 
     print "\nFloating point numbers:"
-    floating_points = '0.02 0.1 0.2 0.3 0.125 0.375 1.5 3.875 13.73'
+    floating_points = '0.02 0.1 0.2 0.3 0.125 0.375 1.5 3.875 13.73 78.6383'
     for f in floating_points.split():
         print "%s ==> %s" % (f, dec2bin(f))
 
