@@ -6,17 +6,17 @@ Convert a decimal number (whole and fraction) to its binary representation.
 A decimal number is a number represented as multiples of 10s. For example, the number 53.72 is
 represented as the sum of multiples of of 10s:
 
-exponents:             1    0   -1   -2
-multiples:            10    1   .1  .01
-                       5    3.   7    2
+             5    3.   7    2
+             1    0   -1   -2
+            10    1   .1  .01
 
 Binary number is the same thing except it uses base 2: For example 3.375 (decimal) is:
 
-3.375 = (2 + 1 + 1/8 + 1/4)
+   3.375 = (2 + 1 + 1/8 + 1/4)
 
-exponents:         1    0   -1   -2   -3
-multiples:         2    1  1/2  1/4  1/8
-                   1    1.   0    1    1
+         1    0   -1   -2   -3
+         2    1  1/2  1/4  1/8
+         1    1.   0    1    1
 
 To convert a decimal number, we do it in two steps:
 
